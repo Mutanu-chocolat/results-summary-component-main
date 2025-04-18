@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+}
+h1,h2,h3,p{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: hsl(241, 100%, 89%);
+   
+}
+
+.card{
+    display: flex;
+    border-radius: 20px;
+    max-width: 600px;
+    overflow: hidden;
+    background-color: hsl(221, 100%, 96%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/*left-side*/
+.results-section{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 20px 0 0 20px;
+    /* align-items: center;
+    justify-content: center;
+    */ 
+   
+}
+
+.results-section h2{
+    font-size: 19px;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+.circle{
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px 105px;
+}
+
+ .score-radius{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.out-of{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.results-section h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+
+.description{
+    font-size: 14px;
+    opacity: 0.8;
+    max-width: 200px;
+}
+
+/*right-side*/
+
+.summary-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: hsl(0, 0%, 100%) ;
+    flex: 1;
+}
+
+.summary-section h2{
+    color: #333;
+    font-size: 19px;
+    margin-bottom: 16px;
+    
+
+}
+
+.summary-list{
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.summary-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
